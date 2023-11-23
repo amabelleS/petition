@@ -1,3 +1,4 @@
+import { redirect } from 'next/navigation'
 import { SubmitButton } from "./submit-button"
 
 const covenantList = [
@@ -50,7 +51,9 @@ export default function CovenantForm({}: Props) {
      formData.getAll("allah");
         // mutate data
         // revalidate cache
-      }
+
+      redirect('/confetti')
+    }
 
   return (
     <form action={submitHandler} className="flex flex-col items-center">
@@ -79,9 +82,29 @@ export default function CovenantForm({}: Props) {
             )
         })}
       </ul>
-      <div>
-        <SubmitButton/>
+      <div className="grid gap-6 mb-6 md:grid-cols-4">
+        <div>
+            <label htmlFor="first_name" className="label">First name</label>
+            <input type="text" id="first_name" className="custom-input" placeholder="John" required/>
+        </div>
+        <div>
+            <label htmlFor="last_name" className="label">Last name</label>
+            <input type="text" id="last_name" className="custom-input" placeholder="Doe" required/>
+        </div>
+        <div>
+            <label htmlFor="adress" className="label">Adress</label>
+            <input type="text" id="adress" className="custom-input" placeholder="La La land" required/>
+        </div>
+        <div>
+            <label htmlFor="phone" className="label">Phone</label>
+            <input type="tel" id="phone" className="custom-input" placeholder="123-45-678" 
+            // pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" 
+            required/>
+        </div>
       </div>
+        <div>
+          <SubmitButton/>
+        </div>
     </form>
   )
 }
