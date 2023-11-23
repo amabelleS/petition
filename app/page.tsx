@@ -1,4 +1,3 @@
-import { SubmitButton } from "./_components/submit-button";
 import CovenantForm from './_components/covenant-form'
 
 export default function Home() {
