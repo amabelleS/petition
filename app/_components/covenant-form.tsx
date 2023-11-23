@@ -60,7 +60,7 @@ export default function CovenantForm({}: Props) {
       <ul className="mb-6">
         {covenantList.map((item, index) => {
             return (
-                <li key={item.artticle} className="w-full flex">
+                <li key={item.article} className="w-full flex">
                         <div className="mr-6">
                         <input 
                             id={item.content.substring(0, 7) + index} 
