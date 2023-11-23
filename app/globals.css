@@ -12,7 +12,6 @@
 }
 
 /* START: General styles */
-
 .flex-center {
   @apply flex items-center justify-center;
 }
