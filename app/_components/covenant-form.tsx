@@ -7,7 +7,7 @@ const covenantList = [
     },
     {
         artticle: 2,
-        content: 'Do you endorse making homosexuality punishable by jail or death.'
+        content: 'Do you endorse making homosexuality punishable by jail or death?'
     },
     {
         artticle: 4,
