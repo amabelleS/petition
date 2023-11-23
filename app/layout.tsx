@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Petition To help Hamas',
-  description: 'Help Hamas free Palestine. #HamasIsIsis',
+  title: 'Petition To help Hamas Free Palestine.',
+  description: 'Palestinian Islamic Resistance Movement. From the river to the seש, Palestine will be free!',
 }
 
 export default function RootLayout({
