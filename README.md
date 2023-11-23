@@ -4,4 +4,4 @@ This is a project made during a hasbara hackton, while waiting for my taem to gi
 
 <!-- Clickable link to the deployed version will be added here: -->
 
-[![Petition For Hamas](./public/app.png)](https://petition-for-hamas.vercel.app)
+[![Petition For Hamas](./public/app.jpg)](https://petition-for-hamas.vercel.app)
