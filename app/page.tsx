@@ -3,7 +3,8 @@ import CovenantForm from './_components/covenant-form'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-4">
+    <main className="grid h-screen place-items-center p-4">
+    {/* <main className="flex min-h-screen flex-col items-center p-4"> */}
       <header className='flex-around flex-col pb-4 w-full md:flex-row md:gap-4'>
         <Image 
           src='https://www.hamas.com/wp-content/uploads/2023/11/Flag_of_Hamas.svg_.png'
