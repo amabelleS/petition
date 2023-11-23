@@ -2,26 +2,26 @@ import { redirect } from 'next/navigation'
 import { SubmitButton } from "./submit-button"
 
 const covenantList = [
-    {
-        artticle: 1,
-        content: 'Every Jew, Christian and non-Muslim in the world must be slaughtered.'
-    },
-    {
-        artticle: 2,
-        content: 'Do you endorse making homosexuality punishable by jail or death?'
-    },
-    {
-        artticle: 4,
-        content: 'You agree that Iran should use Palestinians as puppets to spread radical jihad and destroy the west?'
-    },
-    {
-        artticle: 5,
-        content: "You support strict Sharia law which bans women from showing their knees, hair, playing sports in public, not being able to travel without a man's premission?"
-    },
-    {
-        artticle: 6,
-        content: "You want a terrorist group that beheads babys and rapes girls to replace the only democracy in the middle east?"
-    },
+  {
+      article: 1,
+      content: 'Every Jew, Christian, and non-Muslim in the world must be slaughtered.'
+  },
+  {
+      article: 2,
+      content: 'You endorse making homosexuality punishable by jail or death.'
+  },
+  {
+      article: 4,
+      content: 'You agree that Iran should use Palestinians as puppets to spread radical jihad and destroy the West.'
+  },
+  {
+      article: 5,
+      content: "You support strict Sharia law which bans women from showing their knees, and hair, playing sports in public, not being able to travel without a man's permission."
+  },
+  {
+      article: 6,
+      content: "You want a terrorist group that beheads babies and rapes girls to replace the only democracy in the middle east"
+  },
 ]
 
 export async function sumbit(
