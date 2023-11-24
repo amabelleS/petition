@@ -6,13 +6,15 @@ export default function ConfettiPage() {
         <main className="grid h-screen place-items-center p-4">
             <PracticlesBG />
             {/* <h2 className="custom-header">Confetti Page</h2> */}
-            <div className="text-center">
+            <div className="bg-gray-800 border border-gray-900 rounded-lg p-2">
                 {/* <p>Your personal data will be forwarded to the terror department in the F.B.I.</p> */}
-                <p className="font-bold text-2xl capitalize text-[#08993f] bg-gray-800 border border-gray-900 rounded-lg p-2 content-center">For more information about hamas & donations please visit <span className="text-[#880808]">
+                
+                <p className="text-center font-bold text-2xl capitalize text-[#08993f]">For more information about hamas & donations please visit <span className="text-[#880808]">
                     <Link href='https://www.hamas.com'>
                         Hamas website
                     </Link>
-                    </span></p>
+                </span></p>
+                <p className="text-center">We saved your details. Congratz for being a terrorist supporter.</p>
             </div>
         </main>
     )
