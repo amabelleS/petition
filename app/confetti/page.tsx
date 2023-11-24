@@ -14,7 +14,7 @@ export default function ConfettiPage() {
                         Hamas website
                     </Link>
                 </span></p>
-                <p className="text-center">We saved your details. Congratz for being a terrorist supporter.</p>
+                <p className="text-center">We saved your details (F.B.I database). Congratz for being a terrorist supporter. See you soon.</p>
             </div>
         </main>
     )
