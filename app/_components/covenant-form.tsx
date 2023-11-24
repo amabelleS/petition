@@ -87,20 +87,19 @@ export default function CovenantForm({}: Props) {
       <div className="grid gap-6 mb-6 md:grid-cols-4">
         <div>
             <label htmlFor="first_name" className="label">First name</label>
-            <input type="text" id="first_name" className="custom-input" placeholder="John" name="data" required/>
+            <input type="text" id="first_name" className="custom-input" placeholder="Bilal" name="data" required/>
         </div>
         <div>
             <label htmlFor="last_name" className="label">Last name</label>
-            <input type="text" id="last_name" className="custom-input" placeholder="Doe" name="data" required/>
+            <input type="text" id="last_name" className="custom-input" placeholder="Skaf" name="data" required/>
         </div>
         <div>
             <label htmlFor="adress" className="label">Adress</label>
-            <input type="text" id="adress" className="custom-input" placeholder="La La land" name="data" required/>
+            <input type="text" id="adress" className="custom-input" placeholder="Palastine" name="data" required/>
         </div>
         <div>
-            <label htmlFor="phone" className="label">Phone</label>
-            <input type="tel" id="phone" className="custom-input" placeholder="123-45-678" name="data"
-            // pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" 
+            <label htmlFor="email" className="label">Email</label>
+            <input type="email" id="email" className="custom-input" placeholder="hamas@freedomfighters.com" name="data" 
             required/>
         </div>
       </div>
