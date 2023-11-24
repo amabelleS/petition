@@ -35,10 +35,11 @@
 }
 
 .custom-header {
-  @apply font-bold text-4xl capitalize border-b-2 border-[#880808] text-[#880808] flex items-center justify-center mb-6;
+  @apply font-bold text-4xl capitalize border-b-2 border-[#880808] text-[#880808] flex items-center justify-center mb-4;
 }
+
 .custom-header2 {
-  @apply font-bold text-2xl capitalize border-b-2 border-[#08993f] text-[#08993f] flex items-center justify-center mb-6;
+  @apply font-bold text-2xl capitalize text-[#08993f] flex items-center justify-center mb-6;
 }
 
 

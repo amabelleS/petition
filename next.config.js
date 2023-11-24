@@ -8,6 +8,12 @@ const nextConfig = {
             port: '',
             pathname: '/wp-content/uploads/2023/11/**',
           },
+          {
+            protocol: 'https',
+            hostname: 'www.jewishvirtuallibrary.org',
+            port: '',
+            pathname: '/jsource/images/terror/**',
+          },
         ],
       },
 }
