@@ -87,22 +87,22 @@ export default function CovenantForm({}: Props) {
         })}
       </ul>
       <div className='w-full grid grid-cols-2 p-2 mb-4 border-b-2 border-[#08993f]'>
-        <p className='pb-2 w-full col-span-2'>A Muslim Jihadists stabbed Irish children in Dublin flag. Who is to blame? </p>
+        <p className='pb-2 w-full col-span-2'>A Muslim Jihadists stabbed Irish children in Dublin flag. Who is to blame? <span role="img" aria-label="palestine flag">🇵🇸</span></p>
         <div className="flex items-center mb-4 w-full">
             <input disabled id="Jihadists" type="radio" value="jihadists" name="blame-radio" className="radio-input"/>
-            <label htmlFor="Jihadists" className="radio-label">Jihadists</label>
+            <label htmlFor="Jihadists" className="radio-label">Jihadists<span role="img" aria-label="Jihadist">🥷🏿</span></label>
         </div>
         <div className="flex items-center mb-4 w-full">
             <input id="nife" type="radio" value="nife" name="blame-radio" className="radio-input"/>
-            <label htmlFor="nife" className="radio-label">The nife</label>
+            <label htmlFor="nife" className="radio-label">The nife<span role="img" aria-label="dagger">🗡️</span></label>
         </div>
         <div className="flex items-center mb-4 w-full">
             <input id="irish" type="radio" value="irish" name="blame-radio" className="radio-input"/>
-            <label htmlFor="irish" className="radio-label">The irish</label>
+            <label htmlFor="irish" className="radio-label">The irish<span role="img" aria-label="shamrock">☘️</span></label>
         </div>
         <div className="flex items-center mb-4 w-full">
             <input id="israel" type="radio" value="israel" name="blame-radio" className="radio-input"/>
-            <label htmlFor="israel" className="radio-label">Israel Nazi Zionists</label>
+            <label htmlFor="israel" className="radio-label">Israel Nazi Zionists <span role="img" aria-label="israel flag">🇮🇱</span></label>
         </div>
       </div>
       <div className="grid gap-6 mb-6 md:grid-cols-4">
