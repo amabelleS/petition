@@ -71,12 +71,10 @@ export default function CovenantForm({}: Props) {
                             name="allah"
                             type="checkbox" 
                             value={item.content} 
-                            // className="mr-6"
                             />
                         </div>
                         <div className="">
-                        <label 
-                            // className="ml-4"
+                        <label
                             htmlFor={item.content.substring(0, 7) + index}
                             >
                             {item.content}
