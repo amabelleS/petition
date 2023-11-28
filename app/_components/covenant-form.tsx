@@ -85,7 +85,7 @@ export default function CovenantForm({}: Props) {
         })}
       </ul>
       <div className='w-full grid grid-cols-2 p-2 mb-4 border-b-2 border-[#08993f]'>
-        <p className='pb-2 w-full col-span-2'>A Muslim Jihadists stabbed Irish children in Dublin flag. Who is to blame? <span role="img" aria-label="palestine flag">🇵🇸</span></p>
+        <p className='pb-2 w-full col-span-2'>A Muslim Jihadists stabbed Irish children in Dublin <span role="img" aria-label="Ireland Flag">🇮🇪</span>. Who is to blame? <span role="img" aria-label="palestine flag">🇵🇸</span></p>
         <div className="flex items-center mb-4 w-full">
             <input disabled id="Jihadists" type="radio" value="jihadists" name="blame-radio" className="radio-input"/>
             <label htmlFor="Jihadists" className="radio-label">Jihadists<span role="img" aria-label="Jihadist">🥷🏿</span></label>
