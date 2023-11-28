@@ -1,5 +1,6 @@
 import { redirect } from 'next/navigation'
 import { SubmitButton } from "./submit-button"
+import Image from 'next/image';
 
 const covenantList = [
   {
@@ -85,7 +86,7 @@ export default function CovenantForm({}: Props) {
         })}
       </ul>
       <div className='w-full grid grid-cols-2 p-2 mb-4 border-b-2 border-[#08993f]'>
-        <p className='pb-2 w-full col-span-2'>A Muslim Jihadists stabbed Irish children in Dublin <span role="img" aria-label="Ireland Flag">🇮🇪</span>. Who is to blame? <span role="img" aria-label="palestine flag">🇵🇸</span></p>
+        <p className='pb-2 w-full col-span-2'>A Muslim Jihadists stabbed Irish children in Dublin. Who is to blame?</p>
         <div className="flex items-center mb-4 w-full">
             <input disabled id="Jihadists" type="radio" value="jihadists" name="blame-radio" className="radio-input"/>
             <label htmlFor="Jihadists" className="radio-label">Jihadists<span role="img" aria-label="Jihadist">🥷🏿</span></label>
@@ -100,7 +101,16 @@ export default function CovenantForm({}: Props) {
         </div>
         <div className="flex items-center mb-4 w-full">
             <input id="israel" type="radio" value="israel" name="blame-radio" className="radio-input"/>
-            <label htmlFor="israel" className="radio-label">Israel Nazi Zionists <span role="img" aria-label="israel flag">🇮🇱</span></label>
+            
+            <label htmlFor="israel" className="radio-label flex">Israel Nazi Zionists 
+              <Image
+                alt='Israel flag'
+                width={24}
+                height={6}
+                src='https://i.imgur.com/kK1j31M.png'
+                className='ml-1'
+              />
+            </label>
         </div>
       </div>
       <div className="grid gap-6 mb-6 md:grid-cols-4">
